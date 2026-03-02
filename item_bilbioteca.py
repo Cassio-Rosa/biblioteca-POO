@@ -21,3 +21,12 @@ class Item_Biblioteca():
             print(f"Obra {self.__titulo} emprestada com sucesso")
         else:
             print(f"Não pode pegar um livro que ja foi emprestado")
+
+    def set_devolver(self):
+        if self.__disponivel == False:
+            self.__disponivel = True
+            print(f"Obra {self.__titulo} devolvida com sucesso")
+        else:
+            print(f"Não pode devolver um livro que não foi emprestado")
+
+    
