@@ -8,11 +8,10 @@ class Item_Biblioteca():
     def exibir_detalhes(self):
         print(f"""
 
-            ID: {self.__id}
-            Titulo: {self.__titulo}
-            Ano de lançamento: {self.__ano}
-            Disponibilidade: {self.__disponivel}
-
+           ID: {self.__id}
+           Titulo: {self.__titulo}
+           Ano de lançamento: {self.__ano}
+           Disponibilidade: {self.__disponivel}
         """)
 
     def set_emprestar(self):
