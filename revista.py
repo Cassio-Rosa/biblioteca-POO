@@ -12,5 +12,3 @@ class Revista(Item_Biblioteca):
         print(f"          Edição: {self.__edicao}")   
         print(f"          Mês de Lançamento: {self.__mes}")
 
-cosmania = Revista(9, "WOWOWOOWW", 1999, True, 9, "Abril")
-cosmania.exibir_detalhes()
